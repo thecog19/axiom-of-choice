@@ -89,7 +89,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "004",
+      "mission_slug": "005",
       "current_md": "",
       "events": "",
       "missions": [
@@ -111,6 +111,11 @@ export default {
          {
           "slug": "004",
           "name": "LAST STAND PICNIC",
+          "status": "success"
+        },
+         {
+          "slug": "005",
+          "name": "GATHERING STORM",
           "status": "start"
         },
       ],
